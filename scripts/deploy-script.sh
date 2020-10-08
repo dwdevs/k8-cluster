@@ -16,8 +16,8 @@ sleep 5
 ## Worker 1
 clear
 cd $K8DIR/Vagrant/Worker/
-cp -av $K8DIR/Vagrant/WorkerTest/Vagrantfile .
-cp -av $K8DIR/Vagrant/bootstrap.sh .
+cp -av $K8DIR/Vagrant/Worker/Vagrantfile .
+cp -av $K8DIR/Vagrant/Worker/bootstrap.sh .
 echo "Deploying Kubernetes Worker Nodes"
 vagrant up --provider=virtualbox --provision
 
