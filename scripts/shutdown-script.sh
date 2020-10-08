@@ -2,7 +2,7 @@
 K8DIR=/Users/don.wall/Development/k8-project/
 
 ## Worker 1
-cd $K8DIR/Vagrant/Worker/
+cd $K8DIR/k8-cluster/Vagrant/Worker/
 echo "Shuting down workers"
 vagrant halt --force
 

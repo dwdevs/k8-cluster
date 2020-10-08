@@ -6,6 +6,6 @@ echo "Starting the Kubernetes Master VM with VirtualBox"
 vboxmanage startvm Kubernetes-Master --type headless
 
 ## K8 Worker 1
-cd $K8DIR/Vagrant/Worker
+cd $K8DIR/k8-cluster/Vagrant/Worker
 echo "Starting the Kubernetes Worker VM with VirtualBox"
 vagrant up
