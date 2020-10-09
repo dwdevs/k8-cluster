@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-K8DIR=/Users/don.wall/Development/k8-project/
+K8DIR=/Users/don.wall/Development/k8-project/k8-cluster
 
 ## Worker 1
 cd $K8DIR/Vagrant/Worker/
